@@ -35,15 +35,33 @@
                             Directions to reception:<br/>
                         </p>
                         <p class="message-text">
-                            <p>Suggested accomodation venues in Bulawayo:</p><br/>
-                            Gift Registry: <br/>
-
-                        <p>Please RSVP by 30 April 2012</p>
+                            <p>Suggested accomodation venues in Bulawayo:</p>
+                            <ol>
+                                <li><a href="http://www.banfflodgehotel.com/" target="_blank">http://www.banfflodgehotel.com/</a> </li>
+                                <li><a href="http://www.motsamailodge.co.zw/" target="_blank">http://www.motsamailodge.co.zw/</a></li>
+                            </ol>
+                            <p>&nbsp;</p>
+                            Gift Registry Numbers:
+                            <ol>
+                                <li><a href="http://boardmans.co.za/" target="_blank">http://boardmans.co.za/ </a> &nbsp;&nbsp;RW123314</li>
+                                <li><a href="http://www.home.co.za/" target="_blank">http://www.home.co.za/</a>&nbsp;&nbsp;GRW330072000127</li>
+                                <li><a href="http://www.mrpricehome.com/" target="_blank">http://www.mrpricehome.com/ </a>&nbsp;&nbsp;31922</li>
+                            </ol> <br/>
+                            At the gift registry site choose the gift registry tab and use the registry code
+                            <p>&nbsp;</p>
+                        <p>Please RSVP </p>
                         </p>
                         <p id='confirm-message'>
                             <g:form controller='homePage'  action='update'>
                                 <p> <label>Full Name </label><br />
                                     <g:textField name="fullName" />
+                                </p>
+                                <p> <label>Number of adults</label>
+                                    &nbsp; &nbsp;<g:select name="adults" from="${0..5}" />
+                                </p>
+                                <p>
+                                    <label>Number of children</label>
+                                    <g:select name="children" from="${0..5}" />
                                 </p>
                                 <p> <label>Email</label><br />
                                     <g:textField name="email" />
