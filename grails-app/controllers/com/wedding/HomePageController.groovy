@@ -8,6 +8,9 @@ class HomePageController {
     }
 
     def update = {
-        render 'I am here'
+        Rsvp rsvp = new Rsvp(params)
+        rsvp.save()
+        flash.message = 'Thank you for completing the form'
+        redirect(controller: 'homePage', action: 'index')
     }
 }

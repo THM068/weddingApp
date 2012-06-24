@@ -12,7 +12,7 @@ html * {
 }
 
 body {
-    background: #fff;
+    background: url("../images/pink-hearts-background.gif");
     color: #333;
     font: 11px verdana, arial, helvetica, sans-serif;
 }
@@ -272,11 +272,15 @@ th.desc a {
     padding-left: 28px;
 }
 
+.header {
+    color: black;
+}
+
 #main-container {
     margin-left: auto;
     margin-right: auto;
     width: 900px;
-    border:  1px solid #000000;
+    background: #ffffff;
 }
 
 #main-container .header {
@@ -285,5 +289,10 @@ th.desc a {
 }
 
 p.message-text {
-    margin: 5px 0;
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+#confirm-message {
+    margin: 10px 0;
 }

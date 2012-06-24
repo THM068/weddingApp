@@ -2,8 +2,6 @@
     <head>
         <title>Wedding Invitation</title>
         <meta name="layout" content="main" />
-
-
     </head>
     <body>
         <table width="890">
@@ -12,12 +10,11 @@
                     <img src="https://s3.amazonaws.com/wedding-picture/image3.jpg"  width="400" />
                 </td>
                 <td align="">
-                    <h1 class="header">Wedding Invitation</h1>
-                    <div class="wedding-meesage">
-                        <p></p>
-                        To:
+                    <p class="header" style="margin: 10px 0; color: green">${flash.message}</p>
+                    <h1 class="header"><i>Wedding Invitation</i></h1>
+                    <div class="wedding-mesage">
                         <p class="message-text">
-                            You are invited to a wedding ceremony of Mkhululi Moyo and and Candy Sizakele Lindsey
+                            You are invited to the wedding ceremony of Mkhululi Moyo and and Candy Sizakele Lindsey
                         </p>
                         <p class="message-text">
                             1st reception:  <br/>
@@ -44,12 +41,20 @@
                         <p>Please RSVP by 30 April 2012</p>
                         </p>
                         <p id='confirm-message'>
-                            <g:formRemote name="sendInvite" url="[controller: 'homePage', action:'update']"
-                                update="confirm-message">
-                                <g:radio value="true" name="invite"/>Yes
-                                <g:radio value="false" name="invite"/>No
-                                <input type="submit" value="Submit"  onclick="return false;">
-                                </g:formRemote>
+                            <g:form controller='homePage'  action='update'>
+                                <p> <label>Full Name </label><br />
+                                    <g:textField name="fullName" />
+                                </p>
+                                <p> <label>Email</label><br />
+                                    <g:textField name="email" />
+                                </p>
+                                <p>
+                                    Will you be attending <g:radio value="true" name="attending"/> Yes
+                                    <g:radio value="false" name="attending"/> No
+                                </p>
+                                <input type="submit" value="Submit"  >
+                                </g:form>
+
                         </p>
                     </div>
                 </td>
