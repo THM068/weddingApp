@@ -12,6 +12,7 @@ html * {
 }
 
 body {
+    font-size: 12px;
     background: url("../images/pink-hearts-background.gif");
     color: #333;
     font: 11px verdana, arial, helvetica, sans-serif;
@@ -295,4 +296,16 @@ p.message-text {
 
 #confirm-message {
     margin: 10px 0;
+}
+.bold {
+    font-weight: bold;
+}
+.span-header {
+    margin: 0 auto;
+    margin: 0 80px;
+}
+
+.left-label {
+    float: left;
+    width: 190px;
 }
