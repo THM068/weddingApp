@@ -23,6 +23,8 @@
             <tr>
                 <td width="400">
                     <img src="${resource(dir: 'images', file: 'invitation1.JPG')}"  width="400" />
+                    <img src="${resource(dir: 'images', file: 'invitation2.JPG')}"  width="400" />
+
                 </td>
                 <td align="">
                     <p class="header" style="margin: 10px 0; color: green">${flash.message}</p>
