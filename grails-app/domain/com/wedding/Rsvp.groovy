@@ -8,7 +8,8 @@ class Rsvp {
     String accomodation
     Integer adults = 0
     Integer children = 0
-    Integer peopleAccomodation = 0
+    Integer adultAccomodation = 0
+    Integer childrenAccomodation = 0
     Boolean attending = false
     Boolean accomodationRequired = false
 

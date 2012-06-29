@@ -26,7 +26,7 @@
                 </td>
                 <td align="">
                     <p class="header" style="margin: 10px 0; color: green">${flash.message}</p>
-                    <h1 class="header"><i>Wedding Invitation</i></h1>
+                    <h1 class="header"><i style="font-family:French Script;margin-left: 120px;">Wedding Invitation</i></h1>
                     <div class="wedding-mesage">
                         <p class="message-text">
                             Please come celebrate with us the freshness of new life and new love as we<br/><br/>
@@ -69,11 +69,11 @@
                             <p><b>Suggested accomodation venues in Bulawayo:</b><br/><br/></p>
                             <ol>
                                 <li>&nbsp;&nbsp;Banfflodge <br>
-                                    &nbsp;&nbsp;Cost: $50 per person incl. breakfast<br/>
+                                    &nbsp;&nbsp;Cost: USD$50 per person incl. breakfast<br/>
                                     &nbsp;&nbsp;<a href="http://www.banfflodgehotel.com/" target="_blank" style="font-weight: normal;color: blue;">http://www.banfflodgehotel.com/</a><br><br>
                                 </li>
                                 <li>&nbsp;&nbsp;Motsamai<br/>
-                                    &nbsp;&nbsp;Cost: $50 per person incl. breakfast<br/>
+                                    &nbsp;&nbsp;Cost: USD$50 per person incl. breakfast<br/>
                                     &nbsp;&nbsp;<a href="http://www.motsamailodge.co.zw/" target="_blank" style="font-weight: normal;color: blue;">http://www.motsamailodge.co.zw/</a></li>
                             </ol>
                         <p></p><br>
@@ -108,8 +108,11 @@
                                     <label class="left-label">Preferred Accomodation</label>
                                     <g:select name="accomodation" from="${['Banfflodge','Motsamai', 'Other']}" noSelection="['':'-Choose an accomodation-']"/>
                                 </p>
-                                <p> <label class="left-label">Number of people for accomodation</label>
-                                    <g:select name="peopleAccomodation" from="${0..10}" />
+                                <p> <label class="left-label">Number of adults for accomodation</label>
+                                    <g:select name="adultAccomodation" from="${0..10}" />
+                                </p>
+                                <p> <label class="left-label">Number of children for accomodation</label>
+                                    <g:select name="childrenAccomodation" from="${0..10}" />
                                 </p>
                                 <br>
                                 <b>PS</b>
