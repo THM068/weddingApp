@@ -23,7 +23,7 @@
             <tr>
                 <td width="400">
                     <img src="${resource(dir: 'images', file: 'invitation1.JPG')}"  width="400" />
-                    <img src="${resource(dir: 'images', file: 'invitation2.JPG')}"  width="400" />
+                    <img src="${resource(dir: 'images', file: 'background.JPG')}"  width="400" />
 
                 </td>
                 <td align="">
@@ -40,7 +40,7 @@
 
                             <b>Church Ceremony:</b> Orlando West Seventh-day Adventist Church, Soweto, Johannesburg, South Africa<br><br>
                             <b>Reception:</b> Ingwenya Country Escape, Muldersdrift <br><br/>
-                            & on:
+                            and on:
                         </p>
 
                         <p class="message-text">
@@ -48,7 +48,8 @@
                             <b>Time:</b> 09h30<br/><br/>
                             <b>Church Ceremony:</b> Selbourne Park SDA Church, Selbourne, Bulawayo, Zimbabwe<br/> <br/>
 
-                            <b>Reception:</b> Plot Number 13 Lower Rangemore, Khami Road, Bulawayo<br/>
+                            <b>Reception:</b> Plot Number 13 Lower Rangemore, Khami Road, Bulawayo<br/><br/>
+                            <b>Dress Code:</b> Formal <br/> <br/>
                             Directions to reception:<br/>
                         </p>
                         <p>&nbsp;</p>
@@ -77,7 +78,9 @@
                                 <li>&nbsp;&nbsp;Motsamai<br/>
                                     &nbsp;&nbsp;Cost: USD$50 per person incl. breakfast<br/>
                                     &nbsp;&nbsp;<a href="http://www.motsamailodge.co.zw/" target="_blank" style="font-weight: normal;color: blue;">http://www.motsamailodge.co.zw/</a></li>
-                            </ol>
+                            </ol> <br/>
+                        <p>  Please do not book directly with the above Lodges select the venue below and click the "submit" button below.
+                               </p>
                         <p></p><br>
                         <p><b>Please RSVP</b> </p>
                         </p>
@@ -117,9 +120,10 @@
                                     <g:select name="childrenAccomodation" from="${0..10}" />
                                 </p>
                                 <br>
-                                <b>PS</b>
-                                Amount will only be accepted in US dollars at the accommodation venue. Please ensure that your
-convert the local Rand currency to USD$ before departure to Zimbabwe.<br><br>
+
+
+                                <p> <b>PS&nbsp; </b>Amount will only be accepted in US dollars at the accommodation venue.Please ensure that your convert the local Rand currency to USD$ before departure to Zimbabwe.</p>
+
                                 <input type="submit" value="Submit"  >
                                 </g:form>
 
