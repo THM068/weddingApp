@@ -28,18 +28,18 @@
                 </td>
                 <td align="">
                     <p class="header" style="margin: 10px 0; color: green">${flash.message}</p>
-                    <h1 class="header"><i style="font-family:French Script;margin-left: 120px;">Wedding Invitation</i></h1>
+                    <h1 class="header"><i style="font-family:French Script;margin-left: 120px;">Wedding Invitation</i></h1><br/>
                     <div class="wedding-mesage">
                         <p class="message-text">
                             Please come celebrate with us the freshness of new life and new love as we<br/><br/>
                             <span class="span-header bold">Mkhululi Moyo & Candy Sizakele Lindsey</span><p></p>
-                            <span class="span-header ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exchange our marriage vows on</span><br/><br/>
+                            <span class="span-header ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;exchange our marriage vows on</span><br/><br/>
                             <span class="span-header">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sunday, 16 September 2012</span>
                         <p class="message-text">
-                            <b>Time: 09h30</b><br/><br/>
+                            <b >Time:</b> 09h30<br/><br/>
 
                             <b>Church Ceremony:</b> Orlando West Seventh-day Adventist Church, Soweto, Johannesburg, South Africa<br><br>
-                            <b>Reception:</b> Ingwenya Country Escape, Muldersdrift <br><br/>
+                            <b>Reception:</b> Ingwenya Country Escape, Muldersdrift, Johannesburg <br><br/>
                             and on:
                         </p>
 
@@ -49,19 +49,19 @@
                             <b>Church Ceremony:</b> Selbourne Park SDA Church, Selbourne, Bulawayo, Zimbabwe<br/> <br/>
 
                             <b>Reception:</b> Plot Number 13 Lower Rangemore, Khami Road, Bulawayo<br/><br/>
-                            <b>Dress Code:</b> Formal <br/> <br/>
-                            Directions to reception:<br/>
+                            <b>Dress Code:</b> Formal <br/>
+                            %{--Directions to reception:<br/>--}%
                         </p>
                         <p>&nbsp;</p>
                             <b>Gift Registry</b><br><br/>
 
 
                             <ol>
-                                <li>&nbsp;&nbsp;Boardmans Code:RW123314<br>
+                                <li>&nbsp;&nbsp;Boardmans Code: RW123314<br>
                                     &nbsp;&nbsp;<a href="http://boardmans.co.za/" target="_blank" style="font-weight: normal;color: blue;">http://boardmans.co.za/ </a> <br><br>
                                 </li>
                                 <li>
-                                    &nbsp;&nbsp;Home Code: GRW330072000127<br>
+                                    &nbsp;&nbsp;@Home Code: GRW330072000127<br>
                                     &nbsp;&nbsp;<a href="http://www.home.co.za/" target="_blank" style="font-weight: normal;color: blue;">http://www.home.co.za/</a><br><br></li>
                                 <li>&nbsp;&nbsp;Mr Price Home Code: 31922<br/>
                                     &nbsp;&nbsp;<a href="http://www.mrpricehome.com/" target="_blank" style="font-weight: normal;color: blue;">http://www.mrpricehome.com/ </a></li>
@@ -71,15 +71,15 @@
                         <p class="message-text">
                             <p><b>Suggested accomodation venues in Bulawayo:</b><br/><br/></p>
                             <ol>
-                                <li>&nbsp;&nbsp;Banfflodge <br>
+                                <li>&nbsp;&nbsp;Banff Lodge <br>
                                     &nbsp;&nbsp;Cost: USD$50 per person incl. breakfast<br/>
                                     &nbsp;&nbsp;<a href="http://www.banfflodgehotel.com/" target="_blank" style="font-weight: normal;color: blue;">http://www.banfflodgehotel.com/</a><br><br>
                                 </li>
-                                <li>&nbsp;&nbsp;Motsamai<br/>
+                                <li>&nbsp;&nbsp;Motsamai Lodge<br/>
                                     &nbsp;&nbsp;Cost: USD$50 per person incl. breakfast<br/>
                                     &nbsp;&nbsp;<a href="http://www.motsamailodge.co.zw/" target="_blank" style="font-weight: normal;color: blue;">http://www.motsamailodge.co.zw/</a></li>
                             </ol> <br/>
-                        <p>  Please do not book directly with the above Lodges select the venue below and click the "submit" button below.
+                        <p>  Please do not book directly with the above lodges, select the venue below and click the "submit" button to make your booking.
                                </p>
                         <p></p><br>
                         <p><b>Please RSVP</b> </p>
@@ -116,14 +116,15 @@
                                 <p> <label class="left-label">Number of adults for accomodation</label>
                                     <g:select name="adultAccomodation" from="${0..10}" />
                                 </p>
+                                <br/>
                                 <p> <label class="left-label">Number of children for accomodation</label>
                                     <g:select name="childrenAccomodation" from="${0..10}" />
                                 </p>
                                 <br>
 
 
-                                <p> <b>PS&nbsp; </b>Amount will only be accepted in US dollars at the accommodation venue.Please ensure that your convert the local Rand currency to USD$ before departure to Zimbabwe.</p>
-
+                                <p> <b>Please note:&nbsp; </b>The payment will only be accepted in US dollars at the accommodation venue. Please ensure that your convert the local Rand currency to USD$ before your departure to Zimbabwe.</p>
+                                <br/>
                                 <input type="submit" value="Submit"  >
                                 </g:form>
 

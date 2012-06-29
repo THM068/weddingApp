@@ -10,9 +10,11 @@ html * {
     position: absolute;
     right: 0;
 }
-
+li {
+    font-size: 12px !important;
+}
 body {
-    font-size: 12px;
+
     background: url("../images/pink-hearts-background.gif");
     color: #333;
     font: 11px verdana, arial, helvetica, sans-serif;
