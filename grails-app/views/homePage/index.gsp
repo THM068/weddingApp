@@ -32,7 +32,7 @@
                     <div class="wedding-mesage">
                         <p class="message-text">
                             Please come celebrate with us the freshness of new life and new love as we<br/><br/>
-                            <span class="span-header bold">Mkhululi Moyo & Candy Sizakele Lindsey</span><p></p>
+                            <span class="span-header bold">Candy Sizakele Lindsey & Mkhululi Moyo</span><p></p>
                             <span class="span-header ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;exchange our marriage vows on</span><br/><br/>
                             <span class="span-header">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sunday, 16 September 2012</span>
                         <p class="message-text">
@@ -111,7 +111,7 @@
                                 </p>
                                 <p>
                                     <label class="left-label">Preferred Accomodation</label>
-                                    <g:select name="accomodation" from="${['Banfflodge','Motsamai', 'Other']}" noSelection="['':'-Choose an accomodation-']"/>
+                                    <g:select name="accomodation" from="${['Banff Lodge','Motsamai Lodge', 'Other']}" noSelection="['':'-Choose an accomodation-']"/>
                                 </p>
                                 <p> <label class="left-label">Number of adults for accomodation</label>
                                     <g:select name="adultAccomodation" from="${0..10}" />
