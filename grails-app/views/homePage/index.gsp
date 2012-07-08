@@ -68,21 +68,8 @@
                             </ol> <br/>
                             To view online gift registries, click on the “wedding registry” tab and enter the registry code.
                             <p>&nbsp;</p>
-                        <p class="message-text">
-                            <p><b>Suggested accomodation venues in Bulawayo:</b><br/><br/></p>
-                            <ol>
-                                <li>&nbsp;&nbsp;Banff Lodge <br>
-                                    &nbsp;&nbsp;Cost: USD$50 per person incl. breakfast<br/>
-                                    &nbsp;&nbsp;<a href="http://www.banfflodgehotel.com/" target="_blank" style="font-weight: normal;color: blue;">http://www.banfflodgehotel.com/</a><br><br>
-                                </li>
-                                <li>&nbsp;&nbsp;Motsamai Lodge<br/>
-                                    &nbsp;&nbsp;Cost: USD$50 per person incl. breakfast<br/>
-                                    &nbsp;&nbsp;<a href="http://www.motsamailodge.co.zw/" target="_blank" style="font-weight: normal;color: blue;">http://www.motsamailodge.co.zw/</a></li>
-                            </ol> <br/>
-                        <p>  Please do not book directly with the above lodges, select the venue below and click the "submit" button to make your booking.
-                               </p>
-                        <p></p><br>
-                        <p><b>Please RSVP</b> </p>
+
+                        <p><b>Please RSVP if you are attending at least one of our wedding celebration</b> </p>
                         </p>
                         <p id='confirm-message'>
                             <g:form controller='homePage'  action='update'>
@@ -103,7 +90,20 @@
                                     <label class="left-label">Number of children</label>
                                     <g:select name="children" from="${0..5}" />
                                 </p>
-
+                                <p class="message-text">
+                            <p><b>Suggested accomodation venues in Bulawayo:</b><br/><br/></p>
+                            <ol>
+                                <li>&nbsp;&nbsp;Banff Lodge <br>
+                                    &nbsp;&nbsp;Cost: USD$50 per person incl. breakfast<br/>
+                                    &nbsp;&nbsp;<a href="http://www.banfflodgehotel.com/" target="_blank" style="font-weight: normal;color: blue;">http://www.banfflodgehotel.com/</a><br><br>
+                                </li>
+                                <li>&nbsp;&nbsp;Motsamai Lodge<br/>
+                                    &nbsp;&nbsp;Cost: USD$50 per person incl. breakfast<br/>
+                                    &nbsp;&nbsp;<a href="http://www.motsamailodge.co.zw/" target="_blank" style="font-weight: normal;color: blue;">http://www.motsamailodge.co.zw/</a></li>
+                            </ol> <br/>
+                        <p>  Please do not book directly with the above lodges, select the venue below and click the "submit" button to make your booking.
+                               </p>
+                        <p></p><br>
 
                                 <p>
                                     <label class="left-label">Do you require accomodation</label> <g:radio value="true" name="accomodationRequired"/> Yes
