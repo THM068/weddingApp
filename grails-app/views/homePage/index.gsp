@@ -69,7 +69,7 @@
                             To view online gift registries, click on the “wedding registry” tab and enter the registry code.
                             <p>&nbsp;</p>
 
-                        <p><b>Please RSVP if you are attending at least one of our wedding celebration</b> </p>
+                        <p><b>Please RSVP if you are attending at least one of our wedding celebrations</b> </p>
                         </p>
                         <p id='confirm-message'>
                             <g:form controller='homePage'  action='update'>
