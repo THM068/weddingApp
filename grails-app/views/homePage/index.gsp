@@ -123,7 +123,7 @@
                                 <br>
 
 
-                                <p> <b>Please note:&nbsp; </b>The payment will only be accepted in US dollars at the accommodation venue. Please ensure that your convert the local Rand currency to USD$ before your departure to Zimbabwe.</p>
+                                <p> <b>Please note:&nbsp; </b>The payment will only be accepted in US dollars at the accommodation venues. Please ensure that your convert the local Rand currency to USD$ before your departure to Zimbabwe.</p>
                                 <br/>
                                 <input type="submit" value="Submit"  >
                                 </g:form>
