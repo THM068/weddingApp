@@ -111,7 +111,7 @@
                                 </p>
                                 <p>
                                     <label class="left-label">Preferred Accomodation</label>
-                                    <g:select name="accomodation" from="${['Banff Lodge','Motsamai Lodge', 'Other']}" noSelection="['':'-Choose an accomodation-']"/>
+                                    <g:select name="accomodation" from="${['Motsamai Lodge', 'Other']}" noSelection="['':'-Choose an accomodation-']"/>
                                 </p>
                                 <p> <label class="left-label">Number of adults for accomodation</label>
                                     <g:select name="adultAccomodation" from="${0..10}" />
